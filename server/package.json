@@ -1,0 +1,19 @@
+{
+  "name": "alexa-location-finder",
+  "version": "1.0.0",
+  "description": "Server side piece",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Monshizadeh",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.3.3",
+    "bluebird": "^3.3.5",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "geocodio": "^2.0.0",
+    "request-promise": "^2.0.1"
+  }
+}

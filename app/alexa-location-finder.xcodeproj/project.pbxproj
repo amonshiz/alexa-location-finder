@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A60711CA89830607F968A507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6071FDD4A7D15455808EEC2 /* LaunchScreen.storyboard */; };
+		A60714A1D103E6707A3DDCC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60718866B35F9FFE88D4260 /* Main.storyboard */; };
+		A6071AEE5F6F85BEA7A61838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6071844E86800098DBECA8E /* Assets.xcassets */; };
+		A6071C981A8215EFE8A40747 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A607188CD9F06EEEE3389BF4 /* AppDelegate.swift */; };
+		A6071D2119349E595F218289 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6071ECC39079344EC405E0E /* ViewController.swift */; };
+		A71893C1F2C5E8AD4C1FCE72 /* Pods_alexa_location_finder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A66D1F266DB709270684F0 /* Pods_alexa_location_finder.framework */; };
+		DA489EB41CCDA6D200856D97 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA489EB31CCDA6D200856D97 /* LocationManager.swift */; };
+		DA57A98C1CB9AC6700B04A4C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA57A98B1CB9AC6700B04A4C /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46A66D1F266DB709270684F0 /* Pods_alexa_location_finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alexa_location_finder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AD2FAE2FED3748FB2B54FB /* Pods-alexa-location-finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alexa-location-finder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-alexa-location-finder/Pods-alexa-location-finder.debug.xcconfig"; sourceTree = "<group>"; };
+		A607128238F9EAC6F3BD3ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		A6071844E86800098DBECA8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A607184A2B20CF5D7342CBC2 /* alexa-location-finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alexa-location-finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A607188CD9F06EEEE3389BF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6071BEA4AFC69E508F41EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6071C2698C4358396BFF0DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6071ECC39079344EC405E0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C99B588F372AA7488CEB9212 /* Pods-alexa-location-finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alexa-location-finder.release.xcconfig"; path = "Pods/Target Support Files/Pods-alexa-location-finder/Pods-alexa-location-finder.release.xcconfig"; sourceTree = "<group>"; };
+		DA489EB31CCDA6D200856D97 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		DA57A98B1CB9AC6700B04A4C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DAA88F461CB9E4C5000B0091 /* alexa-location-finder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "alexa-location-finder-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6071075212702C97C342456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA57A98C1CB9AC6700B04A4C /* CoreLocation.framework in Frameworks */,
+				A71893C1F2C5E8AD4C1FCE72 /* Pods_alexa_location_finder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F60FBD69663F4B16998DA05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46A66D1F266DB709270684F0 /* Pods_alexa_location_finder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6071520275CE146A94793D5 = {
+			isa = PBXGroup;
+			children = (
+				DA57A98B1CB9AC6700B04A4C /* CoreLocation.framework */,
+				A6071590CAEAF951E4F76098 /* Products */,
+				A6071BC7DB70CAB0FFAB30E2 /* alexa-location-finder */,
+				E571A578AD47654D5B7E3185 /* Pods */,
+				0F60FBD69663F4B16998DA05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6071590CAEAF951E4F76098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A607184A2B20CF5D7342CBC2 /* alexa-location-finder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6071BC7DB70CAB0FFAB30E2 /* alexa-location-finder */ = {
+			isa = PBXGroup;
+			children = (
+				A607128238F9EAC6F3BD3ECB /* Info.plist */,
+				A6071844E86800098DBECA8E /* Assets.xcassets */,
+				A6071FDD4A7D15455808EEC2 /* LaunchScreen.storyboard */,
+				A607188CD9F06EEEE3389BF4 /* AppDelegate.swift */,
+				A60718866B35F9FFE88D4260 /* Main.storyboard */,
+				A6071ECC39079344EC405E0E /* ViewController.swift */,
+				DAA88F461CB9E4C5000B0091 /* alexa-location-finder-Bridging-Header.h */,
+				DA489EB31CCDA6D200856D97 /* LocationManager.swift */,
+			);
+			path = "alexa-location-finder";
+			sourceTree = "<group>";
+		};
+		E571A578AD47654D5B7E3185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3AD2FAE2FED3748FB2B54FB /* Pods-alexa-location-finder.debug.xcconfig */,
+				C99B588F372AA7488CEB9212 /* Pods-alexa-location-finder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60716C50904875CF9542EB3 /* alexa-location-finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6071A793777F27E85FEDB02 /* Build configuration list for PBXNativeTarget "alexa-location-finder" */;
+			buildPhases = (
+				C7A7A92A04334D03D0C689CA /* 📦 Check Pods Manifest.lock */,
+				A6071A3698C251A72E385810 /* Sources */,
+				A6071075212702C97C342456 /* Frameworks */,
+				A6071574BEC1CB1773B22C95 /* Resources */,
+				8542AE27E99E55726BAFDB6E /* 📦 Embed Pods Frameworks */,
+				B2443E53FE67B572132D6D91 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "alexa-location-finder";
+			productName = "alexa-location-finder";
+			productReference = A607184A2B20CF5D7342CBC2 /* alexa-location-finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6071BB3117C1F1A75A20F13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = amonshiz;
+				TargetAttributes = {
+					A60716C50904875CF9542EB3 = {
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A60713992A12324C871807CD /* Build configuration list for PBXProject "alexa-location-finder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6071520275CE146A94793D5;
+			productRefGroup = A6071590CAEAF951E4F76098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60716C50904875CF9542EB3 /* alexa-location-finder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6071574BEC1CB1773B22C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6071AEE5F6F85BEA7A61838 /* Assets.xcassets in Resources */,
+				A60711CA89830607F968A507 /* LaunchScreen.storyboard in Resources */,
+				A60714A1D103E6707A3DDCC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8542AE27E99E55726BAFDB6E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-alexa-location-finder/Pods-alexa-location-finder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2443E53FE67B572132D6D91 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-alexa-location-finder/Pods-alexa-location-finder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7A7A92A04334D03D0C689CA /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6071A3698C251A72E385810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6071C981A8215EFE8A40747 /* AppDelegate.swift in Sources */,
+				A6071D2119349E595F218289 /* ViewController.swift in Sources */,
+				DA489EB41CCDA6D200856D97 /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A60718866B35F9FFE88D4260 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6071C2698C4358396BFF0DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6071FDD4A7D15455808EEC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6071BEA4AFC69E508F41EF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A607131524B3AF8872F31777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A60714382135435693C25569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99B588F372AA7488CEB9212 /* Pods-alexa-location-finder.release.xcconfig */;
+			buildSettings = {
+				ALTERNATE_OWNER = "$(INSTALL_OWNER)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "alexa-location-finder/Info.plist";
+				INSTALL_OWNER = "$(USER)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "your-team.alexa-location-finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "alexa-location-finder/alexa-location-finder-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		A6071529DDFBB33A7E1270A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6071BB84010F2B652D50A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3AD2FAE2FED3748FB2B54FB /* Pods-alexa-location-finder.debug.xcconfig */;
+			buildSettings = {
+				ALTERNATE_OWNER = "$(INSTALL_OWNER)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "alexa-location-finder/Info.plist";
+				INSTALL_OWNER = "$(USER)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "your-team.alexa-location-finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "alexa-location-finder/alexa-location-finder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60713992A12324C871807CD /* Build configuration list for PBXProject "alexa-location-finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A607131524B3AF8872F31777 /* Debug */,
+				A6071529DDFBB33A7E1270A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6071A793777F27E85FEDB02 /* Build configuration list for PBXNativeTarget "alexa-location-finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6071BB84010F2B652D50A81 /* Debug */,
+				A60714382135435693C25569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6071BB3117C1F1A75A20F13 /* Project object */;
+}

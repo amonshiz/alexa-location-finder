@@ -1,0 +1,10 @@
+{
+  "name": "lambda-alexa-location-finder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "lodash": "^4.11.1",
+    "request-promise": "^3.0.0"
+  }
+}
